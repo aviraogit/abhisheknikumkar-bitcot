@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { IoIosContact } from "react-icons/io";
+// import { IoIosContact } from "react-icons/io";
 
-import { MdAddIcCall } from "react-icons/md";
+// import { MdAddIcCall } from "react-icons/md";
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import ListItem from './ListItem'
@@ -25,7 +25,7 @@ const Contact = () => {
  {/* //heading */}
 
   <Link to={"/"}>
-   <h5 className='Navbar bg-primary p-2 text-light mb-0'>Conatact App   <IoIosContact /></h5>
+   <h5 className='Navbar bg-primary p-2 text-light mb-0'>Conatact App   </h5>
    </Link>
 
 
@@ -37,7 +37,7 @@ const Contact = () => {
 <Link to={"/Form"}>
    <button className="btn w-100 p-2 mt-3 bg-light text-dark fw-bold">
 
-    Add Contact    <MdAddIcCall />
+    Add Contact  
     
     </button>
 
